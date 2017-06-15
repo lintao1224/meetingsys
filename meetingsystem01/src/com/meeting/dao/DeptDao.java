@@ -9,7 +9,11 @@ import java.util.List;
 
 import com.meeting.domain.TDept;
 import com.meeting.domain.TUser;
-
+/**
+ * 部门数据访问对象
+ * @author Administrator
+ *
+ */
 public class DeptDao extends BaseDao implements IDeptDao {
 	Connection con;
 	Statement stmt;
